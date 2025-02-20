@@ -29,6 +29,20 @@
         opacity: 1;
       }
     }
+     @media (max-width: 768px) {
+      body {
+        background-size: cover;
+      }
+      header h1 { font-size: 2.8em; padding: 50px 20px; }
+      header h2 { font-size: 2.3em; }
+      header p { font-size: 1.8em; }
+      #invitation h3 { font-size: 3em; }
+      #invitation p { font-size: 2.2em; }
+      #schedule h3, #wishes h3 { font-size: 2.5em; }
+      #schedule .event h4 { font-size: 1.8em; }
+      #schedule .event p { font-size: 1.5em; }
+    }
+	
     /* Header Section */
     header {
        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -40,6 +54,7 @@
       align-items: center;
       color: #fff;
       text-align: center;
+      	margin: 25px auto;
       animation: zoomIn 3s ease-in-out;
     }
   @keyframes zoomOut {
@@ -58,14 +73,14 @@
       font-family: 'Emilys Candy', cursive;
       font-size: 4.5em;
       color: #f49bf4;
-      margin: 25px 0;
+      margin: 25px auto;
       animation: fadeIn 8s ease-in-out;
     }
 
     header h2 {
       font-family: 'charm', cursive;
       font-size: 3.5em;
-      margin: 2px 0;
+      margin: 2px auto;
       color: #f4d49b;
       text-align: center;
       animation: fadeIn 10s ease-in-out;
@@ -91,7 +106,7 @@
     /* Decorative Borders */
     .border {
       text-align: center;
-      margin: 30px 0;
+      margin: 25px auto;
       border-radius: 15px;
       animation: zoomIn 2s ease-in-out;
     }
@@ -120,9 +135,9 @@
       background: linear-gradient(135deg, #19547b, #ffd89b );
       color: #fff;
       border-radius: 15px;
-      margin: 30px auto;
+      margin: 40px auto;
       width: 85%;
-      max-width: 800px;
+      max-width: 1000px;
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
       animation: zoomIn 1.5s ease-in-out;
     }
